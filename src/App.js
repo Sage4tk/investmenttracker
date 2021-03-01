@@ -1,25 +1,31 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+//components 
+import Investments from './components/Investment';
+import Watchlist from './components/Watchlist';
 
 function App() {
+
+  const [showlist, setshowlist] = useState(true);
+
+  const investmentToggler = () => {
+    setshowlist(true);
+  }
+
+  const watchToggler = () => {
+    setshowlist(false);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="header">
+        <p onClick={investmentToggler} className={(showlist ? 'active':'')}>Investments</p>
+        <p onClick={watchToggler} className={(showlist ? '':'active')}>Watchlist</p>
+      </div>
+      <Investments showlist={showlist} />
+      <Watchlist showlist={showlist} />
     </div>
-  );
+  )
 }
 
 export default App;
