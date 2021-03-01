@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/investmenttracker/static/css/main.5d24131d.chunk.css",
+    "main.js": "/investmenttracker/static/js/main.06ac4aad.chunk.js",
+    "main.js.map": "/investmenttracker/static/js/main.06ac4aad.chunk.js.map",
+    "runtime-main.js": "/investmenttracker/static/js/runtime-main.172a8476.js",
+    "runtime-main.js.map": "/investmenttracker/static/js/runtime-main.172a8476.js.map",
+    "static/js/2.4b550e4a.chunk.js": "/investmenttracker/static/js/2.4b550e4a.chunk.js",
+    "static/js/2.4b550e4a.chunk.js.map": "/investmenttracker/static/js/2.4b550e4a.chunk.js.map",
+    "static/js/3.339488dd.chunk.js": "/investmenttracker/static/js/3.339488dd.chunk.js",
+    "static/js/3.339488dd.chunk.js.map": "/investmenttracker/static/js/3.339488dd.chunk.js.map",
+    "index.html": "/investmenttracker/index.html",
+    "static/css/main.5d24131d.chunk.css.map": "/investmenttracker/static/css/main.5d24131d.chunk.css.map",
+    "static/js/2.4b550e4a.chunk.js.LICENSE.txt": "/investmenttracker/static/js/2.4b550e4a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.172a8476.js",
+    "static/js/2.4b550e4a.chunk.js",
+    "static/css/main.5d24131d.chunk.css",
+    "static/js/main.06ac4aad.chunk.js"
+  ]
+}
