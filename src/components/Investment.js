@@ -48,7 +48,7 @@ const Investments = ({ showlist }) => {
                 <p>Name</p>
                 <p>Price Bought</p>
                 <p>Current Price</p>
-                <p>Profit/Loss</p>
+                <p>Profit / Loss</p>
             </div>
         {investments.map((data) => (
           <Investmentcard data={data} />

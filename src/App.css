@@ -148,17 +148,24 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  html {
+    overflow-x: hidden;
+  }
   body {
     overflow-x: hidden;
   }
   .investment-template {
     padding: 10px;
   }
+  .investment-template p {
+    min-width: 74px;
+  }
   .watchlist-template {
     padding: 10px;
   }
   .watchlist-template p {
-    margin-right: 20%;
+    margin-right: 0;
+    min-width: none;
   }
 }
 /*# sourceMappingURL=App.css.map */
